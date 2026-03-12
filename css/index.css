@@ -1,0 +1,1075 @@
+/* MEDIA >= 1200px */
+
+/* MAIN SECTION */
+main {
+  width: 100%;
+  height: calc(100vh - 60px);
+  margin-top: 60px;
+  background-image: url(../img/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.index-main-text {
+  display: flex;
+  flex-direction: column;
+  border-left: 4px solid var(--site-color-01);
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.index-main-text-slogan {
+  font-size: 8.0rem;
+  line-height: 0.9;
+  color: var(--site-color-06);
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  padding-left: 12px;
+}
+
+.index-main-text-slogan-tall {
+  display: none;
+}
+
+.index-main-text-h1 {
+  padding-left: 14px;
+}
+
+/* OUR MISSION SECTION */
+.index-our-mission {
+  width: 100%;
+  padding: 60px 0;
+  background-color: var(--site-color-04);
+}
+
+.index-our-mission-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.index-our-mission-img {
+  display: block;
+  margin-left: auto;
+}
+
+.index-our-mission-img img {
+  display: block;
+  width: 80%;
+  border: 4px solid var(--site-color-01);
+  border-radius: 360px;
+  margin: 0 auto;
+}
+
+.index-our-mission-text {
+  display: block;
+  margin-left: auto;
+  width: 600px;
+}
+
+.index-our-mission-text p {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  max-width: 64ch;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.index-our-mission-ceo {
+  display: flex;
+  align-content: center;
+  flex-direction: row;
+  column-gap: 8px;
+}
+
+.index-our-mission-ceo-suffix {
+  font-weight: 400;
+}
+
+/* HOW IT WORKS SECTION */
+.index-how-it-works {
+  width: 100%;
+  height: calc(100vh - 60px) !important;
+  padding: 60px 0;
+  background-color: var(--site-color-01);
+}
+
+.index-how-it-works-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.index-how-it-works h2, 
+.index-how-it-works h3 {
+  color: var(--site-color-06);
+  text-align: center;
+}
+
+.index-how-it-works ol {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 36px;
+}
+
+.index-how-it-works li {
+  flex-basis: 33.33%;
+}
+
+.index-how-it-works-step-list-1 {
+  padding: 0 20px 0 20px;
+  border-left: 4px solid var(--site-color-04);
+  border-right: 2px solid var(--site-color-04);
+}
+
+.index-how-it-works-step-list-2 {
+  padding: 0 20px 0 20px;
+  border-left: 2px solid var(--site-color-04);
+  border-right: 2px solid var(--site-color-04);
+}
+
+.index-how-it-works-step-list-3 {
+  padding: 0 20px 0 20px;
+  border-left: 2px solid var(--site-color-04);
+  border-right: 4px solid var(--site-color-04);
+}
+
+.index-how-it-works p {
+  display: flex;
+  text-align: left;
+  width: 100%;
+  margin: 0 auto;
+  block-size: 250px;
+  color: var(--site-color-06);
+  font-weight: 400;
+  padding: 16px 0;
+}
+
+.index-how-it-works-p2 {
+  justify-content: center;
+}
+
+.index-how-it-works img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 180px;
+  width: 180px;
+}
+
+/* OUR SERVICES SECTION */
+.index-services {
+  width: 100%;
+  height: 100%;
+  padding: 60px 0;
+  background-color: var(--site-color-04);
+}
+
+.index-services-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.index-services-h2-full {
+  text-align: center;
+}
+
+.index-services-h2-short {
+  display: none;
+}
+
+.index-services h3, 
+.index-services h4 {
+  text-align: center;
+  line-height: 1.4;
+}
+
+.index-services-plan {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 36px;
+}
+
+.index-services-plan-description {
+  display: block;
+  block-size: 72px;
+  align-content: center;
+  opacity: 0.8;
+}
+
+.index-services-plan li {
+  font-weight: 500;
+  font-size: 2.0rem;
+  line-height: 1.8;
+}
+
+.index-services-plan-1,
+.index-services-plan-2,
+.index-services-plan-3 {
+  width: 33.33%;
+  padding: 0 20px 0 20px;
+}
+
+.index-services-plan-1 {
+  border-left: 4px solid var(--site-color-01);
+  border-right: 2px solid var(--site-color-01);
+}
+
+.index-services-plan-2 {
+  border-left: 2px solid var(--site-color-01);
+  border-right: 2px solid var(--site-color-01);
+}
+
+.index-services-plan-3 {
+  border-left: 2px solid var(--site-color-01);
+  border-right: 4px solid var(--site-color-01);
+}
+
+.index-services-price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: var(--site-color-06);
+  padding-top: 12px;
+}
+
+.cta-btn-index-services-plan-1,
+.cta-btn-index-services-plan-2,
+.cta-btn-index-services-plan-3 {
+  display: none !important;
+}
+
+.cta-btn-index-services {
+  margin: 0 auto;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+/* FAQ SECTION */
+.index-faq {
+  width: 100%;
+  padding: 60px 0;
+}
+
+.index-faq-flex {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.index-faq h2 {
+  padding-bottom: 36px;
+}
+
+.index-faq h5 {
+  padding-bottom: 8px;
+}
+
+.index-faq p {
+  padding-bottom: 24px;
+  opacity: 0.8;
+}
+
+/* TESTIMONIALS SECTION */
+.index-testimonials {
+  width: 100%;
+  padding-top: 60px;
+  background-color: var(--site-color-04);
+}
+
+.index-testimonials-h2 {
+  display: none;
+}
+
+.index-testimonials-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.testimonial {
+  flex-basis: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.testimonial img {
+  width: 100px;
+  height: 100px;
+  border: 3px solid var(--site-color-01);
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.testimonial p {
+  text-align: center;
+  padding: 20px;
+}
+
+
+/* MOBILE PHONES (PORTRAIT) */
+@media only screen and (max-width: 600px) {
+
+  /* MAIN SECTION */
+  .index-main-text {
+    margin-bottom: 120px;
+  }
+
+  .index-main-text-slogan {
+    display: none;
+  }
+
+  .index-main-text-slogan-tall {
+    display: inline;
+    font-size: 2.8rem;
+    line-height: 1.0;
+    color: #fff;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    margin-left: 0px;
+    padding-left: 8px;
+  }
+  
+  .index-main-text-h1 {
+    margin-left: 0px;
+    padding-left: 8px;
+  }
+
+  /* OUR MISSION SECTION */
+  .index-our-mission {
+    height: 100%;
+    padding: 30px 0;
+  }
+
+  .index-our-mission-flex {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .index-our-mission-img {
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .index-our-mission-img img {
+    width: 100%;
+    max-width: 250px;
+    padding: 0;
+    margin: 0 auto;
+  }
+  
+  .index-our-mission-text {
+    max-width: 100%;
+  }
+
+  .index-our-mission-text h2 {
+    text-align: center;
+  }
+
+  /* HOW IT WORKS SECTION */
+  .index-how-it-works {
+    height: 100%;
+    padding: 30px 0;
+  }
+
+  .index-how-it-works ol {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .index-how-it-works li {
+    flex-basis: 100%;
+  }
+
+  .index-how-it-works-step-list-1,
+  .index-how-it-works-step-list-2,
+  .index-how-it-works-step-list-3 {
+    padding: 0 0 60px 0;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+  }
+
+  .index-how-it-works-step-list-3 {
+    padding: 0;
+  }
+
+  .index-how-it-works p {
+    block-size: 100%;
+  }
+
+  .index-how-it-works img {
+    max-height: 80%;
+  }
+
+  /* OUR SERVICES SECTION */
+  .index-services {
+    height: 100%;
+    padding: 30px 0;
+  }
+
+  .index-services-h2-full {
+    display: none;
+  }
+
+  .index-services-h2-short {
+    display: inline;
+    text-align: center;
+    color: var(--site-color-06);
+  }
+
+  .index-services-plan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 16px;
+    flex-basis: 100%;
+  }
+
+  .index-services-plan-description {
+    display: block;
+    justify-self: center;
+    block-size: 100px;
+    text-align: center;
+  }
+
+  .index-services-plan ul {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .index-services-plan li {
+    flex-basis: 100%;
+    font-size: 1.6rem;
+    line-height: 1.8;
+  }
+
+  .index-services-plan-1,
+  .index-services-plan-2,
+  .index-services-plan-3 {
+    width: 100%;
+    padding: 0px;
+    border-left: none;
+    border-right: none;
+    border-bottom: 4px solid var(--site-color-01);
+  }
+
+  .index-services-plan-2,
+  .index-services-plan-3 {
+    padding-top: 24px;
+  }
+
+  .index-services-price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.0rem;
+    font-weight: 600;
+    color: var(--site-color-06);
+  }
+
+  .cta-btn-index-services {
+    display: none;
+  }
+
+  .cta-btn-index-services-plan-1,
+  .cta-btn-index-services-plan-2,
+  .cta-btn-index-services-plan-3 {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 16px;
+    margin-bottom: 24px;
+  }
+
+  .index-services-note {
+    padding-top: 24px;
+  }
+
+  /* FAQ SECTION */
+  .index-faq {
+    padding: 30px 0;
+  }
+
+  .index-faq h2 {
+    padding-bottom: 24px;
+    margin: 0 auto;
+  }
+
+  /* TESTIMONIALS SECTION */
+  .index-testimonials {
+    padding: 30px 0;
+  }
+  
+  .index-testimonials-flex {
+    flex-direction: column;
+  }
+  
+  .index-testimonials-h2 {
+    display: inline;
+    text-align: center;
+    padding-bottom: 24px;
+  }
+
+  .testimonial:nth-child(4),
+  .testimonial:nth-child(5) {
+    display: none;
+  }
+
+}
+
+
+
+/* MOBILE PHONES (LANDSCAPE) */
+@media only screen and (max-height: 480px) and (orientation: landscape) {
+
+  /* MAIN SECTION */
+  .index-main-text-slogan {
+    display: inline;
+    font-size: 3.6rem;
+    line-height: 0.9;
+    padding-left: 8px;
+  }
+
+  .index-main-text-slogan-tall {
+    display: none;
+  }
+  
+  .index-main-text-h1 {
+    padding-left: 8px;
+  }
+
+  /* OUR MISSION SECTION */
+  .index-our-mission {
+    height: 100%;
+    padding: 30px 0;
+  }
+
+  .index-our-mission-flex {
+    flex-direction: row;
+  }
+
+  .index-our-mission-img {
+    width: 50%;
+  }
+
+  .index-our-mission-img img {
+    width: 100%;
+    max-width: 250px;
+  }
+
+  .index-our-mission-text {
+    max-width: 50%;
+  }
+
+  /* HOW IT WORKS SECTION */
+  .index-how-it-works {
+    height: 100%;
+    padding: 30px 0;
+  }
+
+  .index-how-it-works ol {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .index-how-it-works li {
+    flex-basis: 100%;
+  }
+
+  .index-how-it-works-step-list-1,
+  .index-how-it-works-step-list-2,
+  .index-how-it-works-step-list-3 {
+    padding: 0 0 60px 0;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+  }
+
+  .index-how-it-works-step-list-3 {
+    padding: 0 0 0 0;
+  }
+
+  .index-how-it-works p {
+    block-size: 100%;
+  }
+
+  .index-how-it-works img {
+    max-height: 80%;
+  }
+
+  /* OUR SERVICES SECTION */
+  .index-services {
+    height: 100%;
+    padding: 30px 0;
+  }
+
+  .index-services-h2-full {
+    display: none;
+  }
+
+  .index-services-h2-short {
+    display: inline;
+    text-align: center;
+    color: var(--site-color-06);
+  }
+
+  .index-services-plan {
+    flex-direction: column;
+    padding-top: 16px;
+    flex-basis: 100%;
+  }
+
+  .index-services-plan-description {
+    display: none;
+  }
+
+  .index-services-plan ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-self: center;
+    width: auto;
+    margin: 0 auto;
+    column-gap: 60px;
+    justify-content: start;
+    max-height: 170px;
+  }
+
+  .index-services-plan li {
+    display: flex;
+    align-self: start;
+    justify-content: center;
+    flex-basis: 100%;
+    font-size: 1.6rem;
+  }
+
+  .index-services-plan-1,
+  .index-services-plan-2,
+  .index-services-plan-3 {
+    width: 100%;
+    padding: 0px;
+    border-left: none;
+    border-right: none;
+    border-bottom: 4px solid var(--site-color-01);
+  }
+
+  .index-services-plan-2,
+  .index-services-plan-3 {
+    padding-top: 24px;
+  }
+
+  .index-services-price {
+    font-size: 2.0rem;
+    padding-top: 0px;
+  }
+
+  .cta-btn-index-services {
+    display: none;
+  }
+
+  .cta-btn-index-services-plan-1,
+  .cta-btn-index-services-plan-2,
+  .cta-btn-index-services-plan-3 {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
+  .index-services-note {
+    padding-top: 30px;
+    font-size: 1.6rem;
+  }
+
+  /* FAQ SECTION */
+  .index-faq {
+    padding: 30px 0;
+  }
+
+  .index-faq h2 {
+    padding-bottom: 24px;
+    margin: 0 auto;
+  }
+
+}
+
+
+
+/* LARGER PHONES OR SMALL TABLETS (PORTRAIT) */
+@media only screen and (min-width: 601px) and (max-width: 768px) and (orientation: portrait) {
+
+  /* MAIN SECTION */
+  .index-main-text {
+    margin-bottom: 20%;
+  }
+
+  .index-main-text-slogan {
+    display: none;
+  }
+
+  .index-main-text-slogan-tall {
+    display: inline;
+    font-size: 4.8rem;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    line-height: 0.9;
+    color: var(--site-color-06);
+    padding-left: 8px;
+  }
+  
+  .index-main-text-h1 {
+    line-height: 1.0;
+    padding-left: 8px;
+  }
+
+  /* OUR MISSION SECTION */
+  .index-our-mission-flex {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .index-our-mission-img {
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .index-our-mission-img img {
+    width: 100%;
+    max-width: 250px;
+  }
+  
+  .index-our-mission-text {
+    max-width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .index-our-mission-text h2 {
+    text-align: center;
+  }
+
+  /* HOW IT WORKS SECTION */
+  .index-how-it-works {
+    height: 100%;
+  }
+
+  .index-how-it-works ol {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .index-how-it-works li {
+    flex-basis: 100%;
+  }
+
+  .index-how-it-works-step-list-1 {
+    padding: 0;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 60px;
+    width: 100%;
+  }
+  
+  .index-how-it-works-step-list-2 {
+    padding: 0;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 60px;
+    width: 100%;
+  }
+
+  .index-how-it-works-step-list-3 {
+    padding: 0;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+  }
+
+  .index-how-it-works p {
+    block-size: 100%;
+    width: 70%;
+    text-align: center;
+  }
+
+  .index-how-it-works img {
+    max-height: 80%;
+  }
+
+  /* OUR SERVICES SECTION */
+  .index-services {
+    height: 100%;
+  }
+
+  .index-services-h2-full {
+    display: none;
+  }
+
+  .index-services-h2-short {
+    display: inline;
+    text-align: center;
+    color: var(--site-color-06);
+  }
+
+  .index-services-plan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 16px;
+    flex-basis: 100%;
+  }
+
+  .index-services-plan-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    padding: 48px 0;
+    margin: 0 auto;
+  }
+
+  .index-services-plan ul {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .index-services-plan li {
+    flex-basis: 100%;
+    font-size: 1.6rem;
+    line-height: 2.0;
+  }
+
+  .index-services-plan-1 {
+    border-top: 4px solid var(--site-color-01);
+  }
+
+  .index-services-plan-1,
+  .index-services-plan-2,
+  .index-services-plan-3 {
+    width: 100%;
+    padding: 0;
+    padding-top: 24px;
+    border-left: none;
+    border-right: none;
+    border-bottom: 4px solid var(--site-color-01);
+  }
+
+  .index-services-price {
+    font-size: 2.0rem;
+  }
+
+  .cta-btn-index-services {
+    display: none;
+  }
+
+  .cta-btn-index-services-plan-1,
+  .cta-btn-index-services-plan-2,
+  .cta-btn-index-services-plan-3 {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .index-services-note {
+    padding-top: 60px;
+  }
+
+  /* FAQ SECTION */
+  .index-faq h2 {
+    padding-bottom: 24px;
+    margin: 0 auto;
+  }
+
+  /* TESTIMONIALS SECTION */
+  .index-testimonials {
+    padding: 30px 0;
+  }
+  
+  .index-testimonials-flex {
+    flex-direction: column;
+  }
+  
+  .index-testimonials-h2 {
+    display: inline;
+    text-align: center;
+    padding-bottom: 24px;
+  }
+
+  .testimonial:nth-child(4),
+  .testimonial:nth-child(5) {
+    display: none;
+  }
+
+}
+
+
+
+/* TABLETS (LANDSCAPE) OR SMALL LAPTOPS */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+
+  /* MAIN SECTION */
+  .index-main-text {
+    margin-bottom: 20%;
+  }
+
+  .index-main-text-slogan {
+    display: inline;
+    font-size: 4.8rem;
+    line-height: 0.9;
+  }
+
+  .index-main-text-slogan-tall {
+    display: none;
+  }
+
+  .index-main-text-h1 {
+    line-height: 1.0;
+    padding-left: 12px;
+  }
+
+  /* OUR MISSION SECTION */
+  .index-our-mission-flex {
+    flex-direction: row;
+  }
+
+  .index-our-mission-img {
+    width: 50%;
+  }
+
+  .index-our-mission-img img {
+    max-width: 250px;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .index-our-mission-text {
+    max-width: 50%;
+  }
+
+  /* HOW IT WORKS SECTION */
+  .index-how-it-works {
+    height: 100%;
+  }
+
+  .index-how-it-works h3 {
+    display: flex;
+    justify-content: center;
+    height: 84px;
+  }
+
+  .index-how-it-works img {
+    width: 150px;
+  }
+
+  /* OUR SERVICES SECTION */
+  .index-services {
+    height: 100%;
+  }
+
+  .index-services-plan-description {
+    block-size: 150px;
+  }
+
+  /* TESTIMONIALS SECTION */
+  .index-testimonials {
+    padding: 60px 0;
+  }
+
+  .testimonial {
+    flex-basis: 33.33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .testimonial:nth-child(4),
+  .testimonial:nth-child(5) {
+    display: none;
+  }
+
+}
+
+
+
+/* STANDARD LAPTOPS */
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  
+  /* MAIN SECTION */
+  .index-main-text {
+    margin-bottom: 20%;
+  }
+
+  .index-main-text-slogan {
+    display: inline;
+    font-size: 6.0rem;
+    line-height: 0.9;
+  }
+
+  .index-main-text-slogan-tall {
+    display: none;
+  }
+
+  .index-main-text-h1 {
+    padding-left: 12px;
+  }
+
+  /* OUR MISSION SECTION */
+  .index-our-mission-flex {
+    flex-direction: row;
+  }
+
+  .index-our-mission-img {
+    width: 50%;
+  }
+
+  .index-our-mission-img img {
+    max-width: 250px;
+  }
+
+  .index-our-mission-text {
+    max-width: 50%;
+  }
+
+  /* HOW IT WORKS SECTION */
+  .index-how-it-works h3 {
+    display: flex;
+    justify-content: center;
+    height: 84px;
+  }
+
+  .index-how-it-works img {
+    width: 150px;
+  }
+
+  /* OUR SERVICES SECTION */
+  .index-services {
+    height: 100%;
+  }
+
+  .index-services-plan-description {
+    block-size: 150px;
+  }
+
+}
