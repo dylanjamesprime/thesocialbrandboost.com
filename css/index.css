@@ -95,7 +95,7 @@ main {
 /* HOW IT WORKS SECTION */
 .index-how-it-works {
   width: 100%;
-  height: calc(100vh - 60px) !important;
+  height: calc(100vh - 60px);
   padding: 60px 0;
   background-color: var(--site-color-01);
 }
