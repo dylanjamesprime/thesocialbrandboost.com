@@ -417,11 +417,6 @@ a {
 
 /* MOBILE PHONES (PORTRAIT) */
 @media only screen and (max-width: 600px) {
-  /*
-  *, *::before, *::after {
-    box-sizing: border-box;
-  }
-  */
 
   /* BURGER MENU BUTTON */
   .burger-menu-btn {
@@ -466,7 +461,8 @@ a {
   .burger-menu ul li a {
     display: block;
     height: 100%;
-    font-size: 3rem;
+    font-size: 3.6rem;
+    font-weight: 500;
     padding: 30px;
     flex-basis: 100%;
     text-align: center;
@@ -632,7 +628,8 @@ a {
   .burger-menu ul li a {
     display: block;
     height: 100%;
-    font-size: 3rem;
+    font-size: 3.6rem;
+    font-weight: 500;
     padding: 30px;
     flex-basis: 100%;
     text-align: center;
@@ -781,7 +778,8 @@ a {
   .burger-menu ul li a {
     display: block;
     height: 100%;
-    font-size: 3rem;
+    font-size: 3.6rem;
+    font-weight: 500;
     padding: 30px;
     flex-basis: 100%;
     text-align: center;
@@ -936,7 +934,8 @@ a {
   .burger-menu ul li a {
     display: block;
     height: 100%;
-    font-size: 3rem;
+    font-size: 3.6rem;
+    font-weight: 500;
     padding: 30px;
     flex-basis: 100%;
     text-align: center;
@@ -1081,7 +1080,8 @@ a {
   .burger-menu ul li a {
     display: block;
     height: 100%;
-    font-size: 3rem;
+    font-size: 3.6rem;
+    font-weight: 500;
     padding: 30px;
     flex-basis: 100%;
     text-align: center;

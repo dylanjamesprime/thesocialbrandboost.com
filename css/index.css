@@ -83,13 +83,9 @@ main {
 
 .index-our-mission-ceo {
   display: flex;
-  align-content: center;
+  align-items: center;
   flex-direction: row;
   column-gap: 8px;
-}
-
-.index-our-mission-ceo-suffix {
-  font-weight: 400;
 }
 
 /* HOW IT WORKS SECTION */
@@ -381,6 +377,10 @@ main {
     text-align: center;
   }
 
+  .index-our-mission-ceo {
+    text-align: center;
+    justify-content: center;
+  }
   /* HOW IT WORKS SECTION */
   .index-how-it-works {
     height: 100%;
