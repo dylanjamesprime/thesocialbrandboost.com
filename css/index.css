@@ -1,6 +1,6 @@
 /* MEDIA >= 1200px */
 
-/* MAIN SECTION */
+/* MAIN / HERO SECTION */
 main {
   width: 100%;
   height: calc(100vh - 60px);
@@ -163,7 +163,7 @@ main {
 /* OUR SERVICES SECTION */
 .index-services {
   width: 100%;
-  height: 100%;
+  height: calc(100vh - 60px);
   padding: 60px 0;
   background-color: var(--site-color-04);
 }
@@ -183,36 +183,17 @@ main {
   display: none;
 }
 
-.index-services h3, 
-.index-services h4 {
-  text-align: center;
-  line-height: 1.4;
-}
-
 .index-services-plan {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding-top: 36px;
-}
-
-.index-services-plan-description {
-  display: block;
-  block-size: 72px;
-  align-content: center;
-  opacity: 0.8;
-}
-
-.index-services-plan li {
-  font-weight: 500;
-  font-size: 2.0rem;
-  line-height: 1.8;
+  padding: 36px 0 36px 0;
 }
 
 .index-services-plan-1,
 .index-services-plan-2,
 .index-services-plan-3 {
-  width: 33.33%;
+  width: 400px;
   padding: 0 20px 0 20px;
 }
 
@@ -231,6 +212,42 @@ main {
   border-right: 4px solid var(--site-color-01);
 }
 
+.index-services-plan-name {
+  /* display: block; */
+  font-weight: 700;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  text-align: center;
+  line-height: 1.5;
+  color: var(--site-color-06);
+  border-bottom: 4px solid var(--site-color-01);
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.index-services-plan-quantity {
+  font-weight: 600;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  color: var(--site-color-06);
+  text-align: center;
+  line-height: 1.5;
+  padding: 4px 0 4px 0;
+  opacity: 90%;
+}
+/* 
+.index-services-plan-description {
+  display: block;
+  block-size: 72px;
+  align-content: center;
+  opacity: 0.8;
+}
+*/
+.index-services-plan li {
+  font-weight: 500;
+  font-size: 2.0rem;
+  line-height: 2.0;
+  opacity: 80%;
+}
+
 .index-services-price {
   display: flex;
   justify-content: center;
@@ -239,6 +256,7 @@ main {
   font-weight: 600;
   color: var(--site-color-06);
   padding-top: 12px;
+  opacity: 90%;
 }
 
 .cta-btn-index-services-plan-1,
@@ -434,6 +452,14 @@ main {
     color: var(--site-color-06);
   }
 
+  .index-services-plan-name {
+    font-size: 2.2rem;
+  }
+
+  .index-services-plan-quantity {
+    font-size: 2.0rem;
+  }
+
   .index-services-plan {
     display: flex;
     flex-direction: column;
@@ -452,14 +478,13 @@ main {
   .index-services-plan ul {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
   }
 
   .index-services-plan li {
-    flex-basis: 100%;
+    /* flex-basis: 100%; */
     font-size: 1.6rem;
-    line-height: 1.8;
   }
 
   .index-services-plan-1,
@@ -469,7 +494,7 @@ main {
     padding: 0px;
     border-left: none;
     border-right: none;
-    border-bottom: 4px solid var(--site-color-01);
+    /* border-bottom: 4px solid var(--site-color-01); */
   }
 
   .index-services-plan-2,
@@ -478,12 +503,7 @@ main {
   }
 
   .index-services-price {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-size: 2.0rem;
-    font-weight: 600;
-    color: var(--site-color-06);
   }
 
   .cta-btn-index-services {
@@ -637,6 +657,14 @@ main {
     flex-basis: 100%;
   }
 
+  .index-services-plan-name {
+    font-size: 2.2rem;
+  }
+
+  .index-services-plan-quantity {
+    font-size: 2.0rem;
+  }
+
   .index-services-plan-description {
     display: none;
   }
@@ -668,7 +696,7 @@ main {
     padding: 0px;
     border-left: none;
     border-right: none;
-    border-bottom: 4px solid var(--site-color-01);
+    /* border-bottom: 4px solid var(--site-color-01); */
   }
 
   .index-services-plan-2,
@@ -845,7 +873,6 @@ main {
   .index-services-h2-short {
     display: inline;
     text-align: center;
-    color: var(--site-color-06);
   }
 
   .index-services-plan {
@@ -854,6 +881,14 @@ main {
     justify-content: center;
     padding-top: 16px;
     flex-basis: 100%;
+  }
+
+  .index-services-plan-name {
+    font-size: 2.4rem;
+  }
+
+  .index-services-plan-quantity {
+    font-size: 2.0rem;
   }
 
   .index-services-plan-description {
@@ -869,7 +904,7 @@ main {
   .index-services-plan ul {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 90%;
     margin: 0 auto;
   }
 
@@ -877,10 +912,6 @@ main {
     flex-basis: 100%;
     font-size: 1.6rem;
     line-height: 2.0;
-  }
-
-  .index-services-plan-1 {
-    border-top: 4px solid var(--site-color-01);
   }
 
   .index-services-plan-1,
@@ -891,7 +922,6 @@ main {
     padding-top: 24px;
     border-left: none;
     border-right: none;
-    border-bottom: 4px solid var(--site-color-01);
   }
 
   .index-services-price {
@@ -910,10 +940,12 @@ main {
     margin-top: 20px;
     margin-bottom: 20px;
   }
-
+  
+  /*
   .index-services-note {
     padding-top: 60px;
   }
+  */
 
   /* FAQ SECTION */
   .index-faq h2 {
@@ -1011,6 +1043,19 @@ main {
     block-size: 150px;
   }
 
+  .index-services-plan-name {
+    font-size: 2.4rem;
+  }
+  
+  .index-services-plan-quantity {
+    font-size: 2.0rem;
+  }
+
+  .index-services-plan-1,
+  .index-services-plan-2,
+  .index-services-plan-3 {
+    width: 33.33%;
+  }
   .cta-btn-index-services-plan-1,
   .cta-btn-index-services-plan-2,
   .cta-btn-index-services-plan-3 {
@@ -1099,10 +1144,24 @@ main {
     height: 100%;
   }
 
+  .index-services-plan-name {
+    font-size: 2.4rem;
+  }
+
+  .index-services-plan-quantity {
+    font-size: 2.0rem;
+  }
+
   .index-services-plan-description {
     block-size: 150px;
   }
 
+  .index-services-plan-1,
+  .index-services-plan-2,
+  .index-services-plan-3 {
+    width: 33.33%;
+  }
+  
   .cta-btn-index-services-plan-1,
   .cta-btn-index-services-plan-2,
   .cta-btn-index-services-plan-3 {
@@ -1149,12 +1208,16 @@ main {
   }
 
   /* OUR SERVICES SECTION */
-  .index-services {
-    height: 100%;
-  }
-
   .index-services-plan-description {
     block-size: 150px;
+  }
+
+  .index-services-plan-name {
+    font-size: 2.8rem;
+  }
+
+  .index-services-plan-quantity {
+    font-size: 2.4rem;
   }
 
   /* Reason for using !important: This is to override the display: 
