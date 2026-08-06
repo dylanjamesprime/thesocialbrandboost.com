@@ -163,7 +163,7 @@ main {
 /* OUR SERVICES SECTION */
 .index-services {
   width: 100%;
-  height: calc(100vh - 60px);
+  /* height: calc(100vh - 60px); */
   padding: 60px 0;
   background-color: var(--site-color-04);
 }
